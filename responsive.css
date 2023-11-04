@@ -1,0 +1,158 @@
+@media screen and (max-width:570px){
+    body{
+        background-color: blue;
+}
+
+#leftbox{
+position: relative;
+top: -8px;
+    left: -9px;
+height: 393px;
+width: 175vw;
+background-color: brown;
+}
+#loginbox{
+    /* height: 200px; */
+    height: 70vh;
+    width: 64vw;
+    position: absolute;
+  top: 393px;
+  left: 0px;
+  width: 100%;
+  
+}
+.sidetopic h1{
+    position: relative;
+   bottom: 170px;
+   color:rgb(247, 239, 210);
+}
+}
+
+
+@media screen and (max-width:550px){
+    body{
+        background-color: blue;
+}
+
+#leftbox{
+position: relative;
+top: -8px;
+    left: -9px;
+height: 393px;
+width: 175vw;
+}
+#loginbox{
+    /* height: 200px; */
+    height: 70vh;
+    width: 64vw;
+    position: absolute;
+  top: 393px;
+  left: 0px;
+  width: 100%;
+  
+}
+.sidetopic h1{
+    position: relative;
+   bottom: 170px;
+   color:rgb(247, 239, 210);
+}
+}
+
+@media screen and (max-width:451px){
+    
+
+#leftbox{
+    height: 600vh;
+    width: 110vw;
+    position: fixed;
+
+    
+}
+.sidetopic h1{
+    position: relative;
+   bottom: 170px;
+   color:rgb(150, 128, 49);
+}
+.subtopic h2{
+    position: relative;
+   bottom: 170px;
+}
+#loginbox{
+    height: 67vh;
+    width: 70vw;
+    position: relative;
+    top: 140px;
+left: 20px;
+}
+
+  
+}
+
+@media screen and (max-width:600px){
+    
+
+    #leftbox{
+        height: 600vh;
+        width: 110vw;
+        position: fixed;
+    
+        
+    }
+    .sidetopic h1{
+        position: relative;
+       bottom: 170px;
+       color:rgb(247, 239, 210);
+    }
+    .subtopic h2{
+        position: relative;
+       bottom: 170px;
+    }
+    #loginbox{
+        height: 67vh;
+        width: 70vw;
+        position: relative;
+        top: 140px;
+    left: 20px;
+    }
+    
+      
+    }
+    @media screen and (max-width:600px){
+      
+        .sidetopic h1{
+            position: relative;
+           bottom: 170px;
+           color:rgb(247, 239, 210);
+        }
+        #leftbox{
+            height: 600vh;
+            width: 110vw;
+            position: fixed;
+        
+            
+        }
+        
+        .subtopic h2{
+            position: relative;
+           bottom: 170px;
+        }
+        #loginbox{
+            height: 67vh;
+            width: 70vw;
+            position: relative;
+            top: 160px;
+        left: 50px;
+        }
+        
+          
+        }
+
+        @media screen and (max-width:492px){
+      
+            #loginbox{
+            position: relative;
+            left:29px;
+        }
+            }
+    
+        
