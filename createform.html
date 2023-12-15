@@ -1,0 +1,83 @@
+<html>
+
+
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="style2.css">
+        <link   rel="stylesheet" href="responsive.css">
+    </head>
+    <body>
+        
+        <div id="leftbox">
+        <div class="sidetopic">
+        <h1>Welcome to Watch Pilot.</h1>
+        </div>
+        <div class="subtopic">
+            <h2><marquee  behavior="alternate">Buy it Wear them Feel it</marquee><h2>
+            </div>
+        </div>
+        <div id="loginbox">
+        <div class="Registrationform">
+            <h5>Registration form</h5>
+        </div>
+
+            <p>Have an account? 
+                <a href="signin.html" style="text-decoration: none;color: blue;">Sign in</a>
+                from Here
+            </p>
+          
+            <form>
+                <div class="typeuser">
+                <input type="text" placeholder="Full Name"  title="both first and last name with a space between" required pattern="(^[a-zA-Z]{1,30} [a-zA-Z]{1,30}$)"style="height: 40px;
+                width: 100%;font-size: 20px;">
+            </div>
+            <div class="typeuser">
+                <input type="text" placeholder="Username" title="write number and characters both" required pattern="[A-Za-z0-9]{6,20}" style="height: 40px;
+                width: 100%;font-size: 20px;">
+            </div><br><br>
+            <div>
+                <input style="cursor: pointer;" type="radio" id="Male" name="drone" value="Male"  />
+                <label for="Male">Male</label>
+              
+                <input style="cursor: pointer;" type="radio" id="Female" name="drone" value="Female"  />
+                <label for="Female">Female</label>
+              
+               <input style="cursor: pointer;" type="radio" id="Others" name="drone" value="Others" />
+                <label for="Others">Others</label>
+            </div>
+            <!-- email  -->
+            <div class="typeuser">
+            <label for="email">Email:</label>
+            <input type="email" id="email" title="abc@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="30" required placeholder="Enter your email" style="height: 40px;
+            width: 92%;font-size: 20px;"/>
+        </div>
+                <br>
+                <div class="typepassword">
+                    <input type="text" placeholder="Password (8 characters minimum)" minlength="8" style="height: 40px;
+                    width: 100%;font-size: 20px; "required>
+                </div>
+                <div class="typeuser">
+                    <!-- <input type="text" id="Number" name="Number" pattern="Number" title="enter 10 digit number" required  pattern="[7-9]{1}[0-9]{9}" placeholder="Phone Number" /> -->
+                    <input type="text" name="Phone Number" required placeholder="Phone Number" title="Phone number with 7-9 and remaing 9 digit with 0-9" pattern="[7-9]{1}[0-9]{9}"  style="height: 40px;
+       width: 100%;font-size: 20px;">
+                </div>
+                <br>
+                <div class="Rememberme_and_forgetpassword">
+                    <label>
+               <input type="checkbox">Remember Me</span>
+            </label>
+            <br><br>
+                
+            </div>
+        
+            <input class="loginbutton" type="submit" value="Submit" style="cursor: pointer;">
+      
+              </form>
+    
+        </div>
+        
+      
+<script src="javascript.js"></script>
+        
+    </body>
+</html>

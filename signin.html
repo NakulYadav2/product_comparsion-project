@@ -22,16 +22,18 @@
         </div>
 
             <p>Don't have an account? 
-                <a href="#">Create Your Account</a>
+                <a href="createform.html" style="text-decoration: none; color: blue;">Create Your Account</a>
                 it takes less than a minute
             </p>
             <form>
                 <div class="typeuser">
-                <input type="text" placeholder="Username" style="border: whitesmoke;">
-            </div>
+                    <input type="text" placeholder="Username" title="write number and characters both" required pattern="[A-Za-z0-9]{6,20}" style="height: 40px;
+                    width: 100%;font-size: 20px;">
+                </div>
                 <br>
                 <div class="typepassword">
-                    <input type="text" placeholder="Password" style="border: whitesmoke;">
+                    <input type="text" placeholder="Password (8 characters minimum)" minlength="8" style="height: 40px;
+                    width: 100%;font-size: 20px; "required>
                 </div>
                 <br>
                 <div class="Rememberme_and_forgetpassword">
@@ -41,7 +43,7 @@
                 <p>Forgot Password?</p>
             </div>
         
-            <input class="loginbutton" type="button" value="Login">
+            <input class="loginbutton" type="submit" value="Login" style="cursor: pointer;">
       
               </form>
     

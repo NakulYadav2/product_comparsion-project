@@ -1,0 +1,106 @@
+body {
+    
+    background-image: linear-gradient(135deg,#FAB2FF 10%,#1904E5 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: open sans,sans-serif;
+    color: #333;
+    display: inline-flex;
+  }
+  .sidetopic{
+      font-size: 10vmax;
+    line-height: 1;
+    font-weight: 900;
+    margin-top: 172px;
+    margin-bottom: 20px;
+          color: white;
+  }
+  .sidetopic h1{
+      font-size: 6vmax;
+      line-height: 1;
+      font-weight: 7;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-family:OCR A Std, monospace;
+      color:rgb(247, 239, 210);
+  }
+  
+  .Registrationform h5{
+      font-size: 5vmax;
+      line-height: 0;
+      
+  }
+  .loginform h5 p{
+      font-size: 14px;
+      color: #b0b3b9;
+  }
+  #loginbox{
+      background-color: whitesmoke;
+      padding: 40px;
+    overflow: hidden;
+    height: auto;
+    font-family: open sans,sans-serif;
+    color: #333;
+    width: -moz-available;
+    /* display: grid; */
+  
+  }
+  .typeuser  {
+    
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    border: 3px solid #8080804f;
+  }
+  
+  .typepassword  {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    border: 3px solid #8080804f;
+  }
+  .loginbutton{
+    text-align:  left;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 4px 20px 0 #49c628a6;
+    background-image: linear-gradient(135deg,#70F570 10%,#49C628 100%);
+  }
+  #leftbox{
+    padding: 30px;
+    width: 100%;
+    height: -1px;
+    background: #5961f9ad;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(0,0,0,0.3),rgba(0,0,0.7)),url(R.png) ;
+  }
+  
+  .subtopic{
+    color: rgb(206, 193, 21);
+  }
+  @media screen and(max-width:1000px) {
+    #leftbox{
+      #leftbox{
+        padding: 30px;
+        width: 50px;
+        height: -1px;
+        background: #5961f9ad;
+        overflow: hidden;
+        box-sizing: border-box;
+        background-image: linear-gradient(rgb(0,0,0,0.3),rgba(0,0,0.7)),url(R.png) ;
+      }
+    }
+  }
+  
+  
+  
+  
